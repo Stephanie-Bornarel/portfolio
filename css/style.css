@@ -1,0 +1,246 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 1.8em;
+    margin: 0.7em 0;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  /** Wrapper */
+  
+  .in_section {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /** actions */
+  .actions {
+    margin: 4em 0;
+    text-align: center;
+  }
+  .action-button {
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .action-button-plain {
+    border: 2px solid #3f434b;
+    background-color: #3f434b;
+    color: white;
+  }
+  .action-button-line {
+    border: 2px solid #3f434b;
+    color: #3f434b;
+  }
+  
+  /**
+   * Header
+   */
+  #page-header {
+    background-color: #ccc;
+    color:rgba(255,255,255,0.75);
+    padding: 5em 0 10em;
+    text-align: center;
+    text-transform: uppercase;
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #page-header h1{
+      color: white;
+  }
+  /* Navigation */
+  #nav-header {
+    /*position: fixed;
+    z-index: 10;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5); /* ou code couleur #0a0a0a */
+    border: 1px solid rgba(255,255,255,0.25); /* ou code couleur #c0c0c0 */
+    border-bottom-right-radius: 8px;
+  }
+  #nav-header ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  #nav-header ul li {
+    display: inline-block;
+    margin: 0 0 0 1em;
+  }
+  #nav-header ul li a {
+    color: rgba(255,255,255,0.75);
+    transition: color 0.3s;
+  }
+  #nav-header ul li a:hover {
+    color: #fff;
+  }
+  
+  /**
+   * Sections
+   */
+  .section {
+    padding: 4em;
+    position: relative;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .text-up {
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 1em;
+    margin: 1em;
+    font-size: 2em;
+  }
+  
+  .section-title {
+    position: absolute;
+    left: 0;top: -20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .section-subtitle {
+    color: rgba(255,255,255,0.75);
+  }
+  .section-title span {
+    padding: 1em 3em;
+  }
+  
+  /* Intro */
+  #intro {
+    background-color: #70d2e9;
+  }
+  #intro .section-title span{
+    background-color: #70d2e9;
+  }
+  #intro .section-content {
+    color: #fff;
+    font-size: 1.5em;
+  }
+  
+  /* Skills */
+  #skills {
+
+    background-color: #000;
+    background: url(../images/comp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #skills .section-title span{
+    color:#f0f0f0;
+    background-color: #000;
+    background: url(../images/comp.jpg);
+  }
+  
+  
+  #skills th, #skills td {
+      padding: 10px;
+  }
+  #skills table {
+    border-radius: 30px;
+      width: 70%;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      border-collapse: collapse;
+      border-radius: 30px;
+  }
+  #skills th {
+      text-transform: uppercase;
+      background-color: #282b34;
+      font-size: 0.9em;
+      text-align: left;
+      color: white;
+  }
+  #skills th.type-data {
+      background-color: #70d2e9;
+      text-align: center;
+      color: #000;
+  }
+  #skills td {
+      color:#000;
+      background-color: #f0f0f0;
+      width: 25%;
+      border: 1px solid #ccc;
+  }
+  
+  /* Training */
+  #training {
+    background-color: #70d2e9;
+  }
+  #training .section-title span{
+    background-color: #70d2e9;
+  }
+  #training .section-content {
+  
+    border:1px solid black;
+    align-items:center;
+  }
+  #training a{
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    color:black;
+  }
+  
+  #portfolio {
+    color:#f0f0f0;
+    background-color: #000;
+    background: url(../images/comp.jpg);
+  }
+  #portfolio .section-title span{
+    color:#f0f0f0;
+    background-color: #000;
+    background: url(../images/comp.jpg); 
+  }
+  
+  
+  /* Contact */
+  #contact {
+    background-color: #282b34;
+    background: url(../images/background.jpg);
+    color: #ccc;
+    text-align: left;
+  }
+  #contact .section-title span{
+    background-color: black;
+   
+  }
+  #contact .section-content {
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  /**
+   * Footer
+   */
+  #page-footer {
+    padding: 4em;
+    color: #ccc;
+    
+    background-color: #70d2e9;
+  }
