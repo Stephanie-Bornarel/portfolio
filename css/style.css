@@ -161,21 +161,23 @@ body {
       padding: 10px;
   }
   #skills table {
-    border-radius: 30px;
-      width: 70%;
-      margin: 0 auto;
+    
+      width: 100%;
+      margin: auto;
       border: 1px solid #ccc;
       border-collapse: collapse;
-      border-radius: 30px;
+      
   }
   #skills th {
+      width: 50%;
       text-transform: uppercase;
       background-color: #282b34;
       font-size: 0.9em;
-      text-align: left;
+      text-align: center;
       color: white;
   }
   #skills th.type-data {
+    width: 50%;
       background-color: #70d2e9;
       text-align: center;
       color: #000;
@@ -223,7 +225,7 @@ body {
     background-color: #282b34;
     background: url(../images/background.jpg);
     color: #ccc;
-    text-align: left;
+    
   }
   #contact .section-title span{
     background-color: black;
@@ -239,8 +241,7 @@ body {
    * Footer
    */
   #page-footer {
-    padding: 4em;
+    padding: 0.5em;
     color: #ccc;
-    
     background-color: #70d2e9;
   }
